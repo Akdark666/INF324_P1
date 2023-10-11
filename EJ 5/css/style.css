@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.header a:hover {
+    border-bottom: 2px solid white;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+}
+.info-section {
+    margin-bottom: 20px;
+}
+.carousel-item {
+    transition: transform 1s ease-in-out;
+}
+.carousel-item img {
+    width: 100%; /* Ajustar al ancho completo del contenedor */
+    height: 300px; /* Establecer una altura fija */
+    object-fit: cover; /* Asegurar que la imagen cubra completamente el contenedor */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra */
+}
+
+.image-container span {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: gray;
+}
+
+/* Estilos para la sección de Kardex */
+#kardex {
+    background-color: #f5f5f5;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.kardex-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kardex-text {
+    width: 60%;
+}
+
+.kardex-image {
+    width: 40%;
+    text-align: right; /* Alinea la imagen a la derecha */
+}
+
+.kardex-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.kardex-text p {
+    padding: 40px; /* Agrega más espacio alrededor del párrafo */
+}
+
+/* Estilos para la sección del Instituto de Investigación */
+#instituto_investigacion {
+    background-color: #f0f0f0; /* Color de fondo tenue */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.instituto-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instituto-image {
+    width: 40%;
+    text-align: left; /* Alinea la imagen a la izquierda */
+}
+
+.instituto-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.instituto-text {
+    width: 55%;
+    text-align: justify;
+}
+.instituto-text p {
+    padding: 20px; /* Agrega más espacio alrededor del párrafo */
+}
